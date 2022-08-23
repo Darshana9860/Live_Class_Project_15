@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+/* poppins-900 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v20-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v20-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v20-latin-900.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    color: white;
+    background-color: rgb(22, 21, 21);
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.list{
+    display: flex;
+    margin-right: 70px;
+}
+.list-items{
+    margin-left: 40px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.logo{
+    height: 30px;
+    margin-left: 50px;
+   
+}
+.list .list-items:first-child::after{
+    content: "";
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 0.6rem;
+}
+.list .list-items:last-child::after{
+    content: "";
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 0.6rem;   
+}
+.class2{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.left1 {
+    height: 400px;
+    margin-left: 80px;
+}
+.right1{
+    margin-top: 70px;
+    margin-left: 200px;
+    
+}
+.h4-1{
+    color: rgb(206, 24, 24);
+    font-size: 22px;   
+}
+.h1-1{
+    font-family: Poppins;
+    font-size: 60px;
+}
+.p1-1{
+    font-family: Poppins;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.btn1{
+    width: 124px;
+    height: 40px;
+    background-color: rgb(206, 24, 24);
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: 10px;
+    transition:all 0.3s ease-out;
+}
+.btn1:hover{
+    background-color: rgb(167, 140, 140);
+    width: 135px;
+    border-radius: 15px;
+   
+}
+.class4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    position: relative;
+    z-index: 3;
+}
+.part1{
+    width: 340px;
+    
+    height: 350px;
+    font-family: Poppins;
+    background-color: rgb(31, 29, 29);
+}
+.med{
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.h2-2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.p13{
+    margin-right: 140px;
+ }  
+.p2-1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: normal;
+}
+.p1{
+    margin-left: 140px;
+}
+.p11{
+    margin-left: 80px;
+}
+.pactive{
+    background-color: rgb(206, 24, 24);
+    /* margin:auto; */
+}
+.h4-2{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(206, 24, 24);
+}
+.pactive .h4-2{
+    color: white;
+}
+.class6{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+    margin-top: 100px;
+    z-index: 3;
+
+}
+.upper1{
+    display: flex;
+    margin-right: 10px;
+    flex-direction:column;
+    
+}
+.lower1{
+    display: row;
+    flex-direction: column;
+    margin-right: 188px;
+}
+.up1{
+    margin-bottom: 10px;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(33, 30, 30);
+    text-align: center;
+}
+.h2-5{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(206, 24, 24);
+    font-size: 30px;
+}
+.lo1{
+    margin-bottom: 20px;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(33, 30, 30);
+}
+.h5-5{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+}
+.class5{
+    position: absolute;
+    z-index: 3;
+    left: 190px;
+    top: 125%;
+}
+.h1-5{
+    font-size: 90px;
+    font-weight: 900;
+    color: rgb(206, 24, 24);
+    font-family: sans-serif;
+    font-style: normal;
+}
+.h3-5{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.class3{
+    height: 740px;
+    width: 620px;
+    position: absolute;
+    /* border: 1px solid red; */
+    background-color: rgb(38, 37, 37);
+    z-index: 2;
+}
+.class7{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.left7{
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.h3-7{
+    font-family: sans-serif;
+   
+    font-size: 27px;
+}
+.h4-7{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(175, 58, 58);
+}
+.h77{
+    margin:auto 120px;
+}
+.h47{
+    margin-left: 120px;
+}
+
+.h2-7{
+    font-size: 35px;
+}
+.p7{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.btn2{
+    margin-right:190px;
+    margin-top: 30px;
+}
+/* .class8{
+    display: flex;
+    flex-direction: column;
+} */
+.upper7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+.lower7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+.img7{
+    width: 500px;
+    padding: 60px 30px;
+    background-color: rgb(33, 30, 30);
+    margin-bottom: 15px;
+}
+.le1{
+    margin-left: 120px;
+}
+.ri1{
+    margin-right: 140px;
+}
+.r123{
+    height: 400px;
+}
+.class8{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: rgb(33, 30, 30);
+    width: 1200px;
+    margin: auto;
+}
+.right8{
+    margin-right: 60px;
+}
+.left8{
+    margin-left: 60px;
+}
+.left8{
+    width: 600px;
+    font-family: Poppins;
+}
+.h1-8{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.btn8{
+    margin-top: 50%;
+}
+.class9 li{
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    
+}
+
+.ul2{
+    margin: 30px 20px;
+}
+.class10{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 30, 30);
+    padding: 20px 0;
+}
+.img10{
+    height: 30px;
+    margin-left: 150px;
+}
+.right10{
+    margin-right:650px;
+    font-family: sans-serif;
+}
+.img101{
+    margin-right: 40px;
+}
+@media screen and (max-width:768px) {
+    .logo{
+        margin-bottom: 10px;
+    }
+    .list{
+        margin-right: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .class2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    
+    .class4{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        margin-left: 20px;
+    }
+    .right1{
+        margin-left: 20px;
+    }
+    .p1-1{
+        font-size: 13px;
+    }
+    .class3{
+        display: none;
+    }
+    .p1{
+        margin-left: 0px;
+    }
+    .part1{
+        margin: 10px auto;
+    }
+    .class5{
+        position: relative;
+    }
+    .class6{
+        margin: 20px auto;
+       justify-content: center;
+    }
+    .lower1{
+        margin-right: 10px;
+    }
+    .left7{
+        margin: 5px 30px;
+    }
+    .class7{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        
+    }
+    .btn2{
+        margin: 0px 40%;
+    }
+    .upper7{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        margin: 5px 10px;
+    }
+    .lower7{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        margin: 5px 10px;
+    }
+    .le1,.ri1{
+        margin: 10px 10px;
+    }
+    .h3-7,.h4-7{
+        text-align: center;
+    }
+    .h1-8{
+        width: 500px;
+        text-align: center;
+        font-size: 40px;
+        margin: 5px auto;
+    }
+    .class8{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        margin: 5px 1auto;
+        width:550px;
+        padding: 0;
+        height: 300px;
+    }
+    .class8 p{
+        font-size: 10px;
+        width: 400px;
+        text-align: center;
+        margin: 5px auto;
+       
+    }
+    .right8,.left8{
+        margin: 5px 10px;
+    }
+    .btn8{
+        margin: 10px 40%;
+    }
+    .class10{
+        display: flex;
+        justify-content: space-between;
+    }
+    .right10{
+        display: flex;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .p13{
+        margin: auto auto;}
+}    
