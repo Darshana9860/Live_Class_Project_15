@@ -2,7 +2,7 @@
 
 Technologies used : HTML ans CSS
 
-Time taken to complete : 8 hours
+Time taken to complete : 10 hours
 
 ![Screenshot (219)](https://user-images.githubusercontent.com/82273693/189128848-646732ed-9931-422f-a414-b70431b7e5a9.png)
 
