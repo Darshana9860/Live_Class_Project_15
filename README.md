@@ -4,6 +4,8 @@ Technologies used : HTML ans CSS
 
 Time taken to complete : 10 hours
 
+Deployed Link : [Product Design Landing Page](https://frabjous-mooncake-bc7ff0.netlify.app/)
+
 ![Screenshot (219)](https://user-images.githubusercontent.com/82273693/189128848-646732ed-9931-422f-a414-b70431b7e5a9.png)
 
 ![Screenshot (220)](https://user-images.githubusercontent.com/82273693/189128873-5f15dbbf-21eb-4b29-bd15-204be00eba6c.png)
